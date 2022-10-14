@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "" # the website title (if blank, full name will be used instead)
+title: Byungsoo Kim # the website title (if blank, full name will be used instead)
 first_name: Byungsoo
 middle_name: 
 last_name: Kim
 email: contact.byungsoo@gmail.com
-description: "" # the ">" symbol means to ignore newlines until "footer_text:"  
+description: Byungsoo Kim's website # the ">" symbol means to ignore newlines until "footer_text:"  
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -124,8 +124,8 @@ disqus_shortname: byungsook # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  - name: 
+    rss_url: 
 
 # -----------------------------------------------------------------------------
 # Collections
