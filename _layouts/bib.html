@@ -29,10 +29,7 @@
     {% if entry.type == "thesis" -%}
     <div class="title">{{entry.title}}</div>
     <div class="author"><em>{{entry.author}}</em></div>
-    {%- capture periodical -%}{{entry.type}}{{", "}}{{entry.publisher}}{{" "}}{{entry.year}}{{"."}}{%- endcapture -%}
-    <div class="periodical">
-      {{ periodical | strip }}
-    </div>
+    <div class="periodical">{{entry.note}}</div>
     {%- else %}
     <!-- Title -->
     <div class="title">{{entry.title}}</div>
