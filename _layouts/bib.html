@@ -123,9 +123,9 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    {%- endif -%}
     {%- if entry.note -%}
     {%- capture entrynote -%}<b>{{entry.note}}</b>{%- endcapture -%}
+    {%- endif -%}
     {%- endif %}
 
     <!-- Links/Buttons -->
