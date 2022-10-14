@@ -52,7 +52,7 @@ video={https://www.youtube.com/watch?v=PF7QqNZ28hk},
 selected={true}
 }
 
-@article{jouvet2022,
+@article{jouvet2022igm,
 title={Deep learning speeds up ice flow modelling by several orders of magnitude},
 volume={68},
 DOI={10.1017/jog.2021.120},
@@ -60,6 +60,7 @@ number={270},
 journal={Journal of Glaciology},
 publisher={Cambridge University Press},
 author={Jouvet, Guillaume and Cordonnier, Guillaume and Kim, Byungsoo and Lüthi, Martin and Vieli, Andreas and Aschwanden, Andy},
+abstract={This paper introduces the Instructed Glacier Model (IGM) – a model that simulates ice dynamics, mass balance and its coupling to predict the evolution of glaciers, icefields or ice sheets. The novelty of IGM is that it models the ice flow by a Convolutional Neural Network, which is trained from data generated with hybrid SIA + SSA or Stokes ice flow models. By doing so, the most computationally demanding model component is substituted by a cheap emulator. Once trained with representative data, we demonstrate that IGM permits to model mountain glaciers up to 1000 × faster than Stokes ones on Central Processing Units (CPU) with fidelity levels above 90% in terms of ice flow solutions leading to nearly identical transient thickness evolution. Switching to the GPU often permits additional significant speed-ups, especially when emulating Stokes dynamics or/and modelling at high spatial resolution. IGM is an open-source Python code which deals with two-dimensional (2-D) gridded input and output data. Together with a companion library of trained ice flow emulators, IGM permits user-friendly, highly efficient and mechanically state-of-the-art glacier and icefields simulations.},
 year={2022},
 month={dec},
 pages={651–664},
