@@ -27,10 +27,12 @@
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" -%}
-    <!-- {{reference}} -->
     <div class="title">{{entry.title}}</div>
     <div class="author"><em>{{entry.author}}</em></div>
-    <div class="periodical">{{entry.type}}{{" "}}{{entry.year}}</div>
+    {%- capture periodical -%}{{entry.type}}{{", "}}{{entry.publisher}}{{" "}}{{entry.year}}{{"."}}{%- endcapture -%}
+    <div class="periodical">
+      {{ periodical | strip }}
+    </div>
     {%- else %}
     <!-- Title -->
     <div class="title">{{entry.title}}</div>
