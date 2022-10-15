@@ -52,7 +52,7 @@ selected={true}
 }
 
 @article{jouvet2022igm,
-title={Deep learning speeds up ice flow modelling by several orders of magnitude},
+title={Deep Learning Speeds Up Ice Flow Modelling by Several Orders of Magnitude},
 volume={68},
 DOI={10.1017/jog.2021.120},
 number={270},
@@ -101,6 +101,27 @@ preview={phd_thesis.png},
 selected={true}
 }
 
+@article{wiewel2020latent,
+author = {Wiewel, Steffen. and Kim, Byungsoo and Azevedo, Vinicius C. and Solenthaler, Barbara and Thuerey, Nils},
+title = {Latent Space Subdivision: Stable and Controllable Time Predictions for Fluid Flow},
+journal = {Computer Graphics Forum},
+volume = {39},
+number = {8},
+pages = {15-25},
+keywords = {CCS Concepts, • Computing methodologies → Neural networks, Physical simulation},
+doi = {https://doi.org/10.1111/cgf.14097},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14097},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14097},
+abstract = {Abstract We propose an end-to-end trained neural network architecture to robustly predict the complex dynamics of fluid flows with high temporal stability. We focus on single-phase smoke simulations in 2D and 3D based on the incompressible Navier-Stokes (NS) equations, which are relevant for a wide range of practical problems. To achieve stable predictions for long-term flow sequences with linear execution times, a convolutional neural network (CNN) is trained for spatial compression in combination with a temporal prediction network that consists of stacked Long Short-Term Memory (LSTM) layers. Our core contribution is a novel latent space subdivision (LSS) to separate the respective input quantities into individual parts of the encoded latent space domain. As a result, this allows to distinctively alter the encoded quantities without interfering with the remaining latent space values and hence maximizes external control. By selectively overwriting parts of the predicted latent space points, our proposed method is capable to robustly predict long-term sequences of complex physics problems, like the flow of fluids. In addition, we highlight the benefits of a recurrent training on the latent space creation, which is performed by the spatial compression network. Furthermore, we thoroughly evaluate and discuss several different components of our method.},
+year = {2020},
+month = {nov},
+conference = {Proc. SCA},
+preview={latent.jpg},
+website={https://ge.in.tum.de/publications/2020-lssubdiv-wiewel/},
+arxiv = {2003.08723},
+selected={true}
+}
+
 @article{kim2020lnst,
 author = {Kim, Byungsoo and Azevedo, Vinicius C. and Gross, Markus and Solenthaler, Barbara},
 title = {Lagrangian Neural Style Transfer for Fluids},
@@ -124,27 +145,6 @@ arxiv = {2005.00803},
 preview={lnst.jpg},
 video={https://www.youtube.com/watch?v=WPmUsIVf3-4},
 code={https://github.com/byungsook/neural-flow-style},
-selected={true}
-}
-
-@article{wiewel2020latent,
-author = {Wiewel, Steffen. and Kim, Byungsoo and Azevedo, Vinicius C. and Solenthaler, Barbara and Thuerey, Nils},
-title = {Latent Space Subdivision: Stable and Controllable Time Predictions for Fluid Flow},
-journal = {Computer Graphics Forum},
-volume = {39},
-number = {8},
-pages = {15-25},
-keywords = {CCS Concepts, • Computing methodologies → Neural networks, Physical simulation},
-doi = {https://doi.org/10.1111/cgf.14097},
-url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14097},
-eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14097},
-abstract = {Abstract We propose an end-to-end trained neural network architecture to robustly predict the complex dynamics of fluid flows with high temporal stability. We focus on single-phase smoke simulations in 2D and 3D based on the incompressible Navier-Stokes (NS) equations, which are relevant for a wide range of practical problems. To achieve stable predictions for long-term flow sequences with linear execution times, a convolutional neural network (CNN) is trained for spatial compression in combination with a temporal prediction network that consists of stacked Long Short-Term Memory (LSTM) layers. Our core contribution is a novel latent space subdivision (LSS) to separate the respective input quantities into individual parts of the encoded latent space domain. As a result, this allows to distinctively alter the encoded quantities without interfering with the remaining latent space values and hence maximizes external control. By selectively overwriting parts of the predicted latent space points, our proposed method is capable to robustly predict long-term sequences of complex physics problems, like the flow of fluids. In addition, we highlight the benefits of a recurrent training on the latent space creation, which is performed by the spatial compression network. Furthermore, we thoroughly evaluate and discuss several different components of our method.},
-year = {2020},
-month = {nov},
-conference = {Proc. SCA},
-preview={latent.jpg},
-website={https://ge.in.tum.de/publications/2020-lssubdiv-wiewel/},
-arxiv = {2003.08723},
 selected={true}
 }
 
@@ -201,6 +201,7 @@ month = {nov},
 articleno = {188},
 numpages = {11},
 keywords = {fluid simulation, physically-based animation, neural style transfer},
+conference = {Proc. SIGGRAPH Asia},
 arxiv = {1905.07442},
 preview={tnst.jpg},
 video={https://www.youtube.com/watch?v=67qVRhoOQPE},
@@ -227,6 +228,51 @@ conference={Proc. EUROVIS},
 preview={deepvortices.jpg},
 selected={true}
 }
+
+@article{kim2019deepfluids,
+author = {Kim, Byungsoo and Azevedo, Vinicius C. and Thuerey, Nils and Kim, Theodore and Gross, Markus and Solenthaler, Barbara},
+title = {Deep Fluids: A Generative Network for Parameterized Fluid Simulations},
+journal = {Computer Graphics Forum},
+volume = {38},
+number = {2},
+pages = {59-70},
+keywords = {CCS Concepts, • Computing methodologies → Physical simulation, Neural networks},
+doi = {https://doi.org/10.1111/cgf.13619},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13619},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13619},
+abstract = {Abstract This paper presents a novel generative model to synthesize fluid simulations from a set of reduced parameters. A convolutional neural network is trained on a collection of discrete, parameterizable fluid simulation velocity fields. Due to the capability of deep learning architectures to learn representative features of the data, our generative model is able to accurately approximate the training data set, while providing plausible interpolated in-betweens. The proposed generative model is optimized for fluids by a novel loss function that guarantees divergence-free velocity fields at all times. In addition, we demonstrate that we can handle complex parameterizations in reduced spaces, and advance simulations in time by integrating in the latent space with a second network. Our method models a wide variety of fluid behaviors, thus enabling applications such as fast construction of simulations, interpolation of fluids with different parameters, time re-sampling, latent space simulations, and compression of fluid simulation data. Reconstructed velocity fields are generated up to 700× faster than re-simulating the data with the underlying CPU solver, while achieving compression rates of up to 1300×.},
+year = {2019},
+month = {jun},
+arxiv = {1903.10255},
+conference={Proc. EUROGRAPHICS},
+code={https://github.com/byungsook/deep-fluids},
+video={https://www.youtube.com/watch?v=hSDzOZ9IO8U},
+preview={deepfluids.jpg},
+selected={true}
+}
+
+@article{kim2018semantic,
+author = {Kim, Byungsoo and Wang, Oliver and Öztireli, A. Cengiz and Gross, Markus},
+title = {Semantic Segmentation for Line Drawing Vectorization Using Neural Networks},
+journal = {Computer Graphics Forum},
+volume = {37},
+number = {2},
+pages = {329-338},
+keywords = {CCS Concepts, •Computing methodologies → Image manipulation, Computational photography},
+doi = {https://doi.org/10.1111/cgf.13365},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13365},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13365},
+abstract = {Abstract In this work, we present a method to vectorize raster images of line art. Inverting the rasterization procedure is inherently ill-conditioned, as there exist many possible vector images that could yield the same raster image. However, not all of these vector images are equally useful to the user, especially if performing further edits is desired. We therefore define the problem of computing an instance segmentation of the most likely set of paths that could have created the raster image. Once the segmentation is computed, we use existing vectorization approaches to vectorize each path, and then combine all paths into the final output vector image. To determine which set of paths is most likely, we train a pair of neural networks to provide semantic clues that help resolve ambiguities at intersection and overlap regions. These predictions are made considering the full context of the image, and are then globally combined by solving a Markov Random Field (MRF). We demonstrate the flexibility of our method by generating results on character datasets, a synthetic random line dataset, and a dataset composed of human drawn sketches. For all cases, our system accurately recovers paths that adhere to the semantics of the drawings.},
+year = {2018},
+month = {may},
+conference={Proc. EUROGRAPHICS},
+code={https://github.com/byungsook/vectornet},
+preview={vectornet.jpg},
+selected={true}
+}
+
+
+
 
 @thesis{kim2016masterthesis,
 copyright = {In Copyright - Non-Commercial Use Permitted},
