@@ -112,7 +112,7 @@
     {% assign proceedings = "inproceedings, incollection" | split: ','%}
     {% if entry.type == "article" -%}
     {%- capture entrytype -%}<em>{{entry.journal}}
-      {%- if entry.conference -%} ({{entry.conference}}){%- endif -%}
+      {%- if entry.conference -%}{{" ("}}{{entry.conference}}{{")"}}{%- endif -%}
       ,</em>{%- endcapture -%}
     {%- elsif proceedings contains entry.type -%}
     {%- capture entrytype -%}<em>In {{entry.booktitle}},</em>{%- endcapture -%}
@@ -130,7 +130,7 @@
     {%- capture entryyear -%}{%- endcapture -%}
     {%- endif -%}
     {%- if entry.note -%}
-    {%- capture entrynote -%}<b>{{entry.note}}</b>{%- endcapture -%}
+    {%- capture entrynote -%}<b>{{"("}}{{entry.note}}{{")"}}</b>{%- endcapture -%}
     {%- else -%}
     {%- capture entrynote -%}{%- endcapture -%}
     {%- endif -%}
