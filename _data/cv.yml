@@ -31,50 +31,36 @@
             - Prof. Markus Gross
     - title: BSc, Computer Science
       institution: KAIST, South Korea
-      year: 2009
-      description:
-        - title: Thesis
-          contents:
-            - Implementation and Performance Improvement of EKF-SLAM and TJTF-SLAM with Logs of Sensor Data Set taken from Real Robots (jointly authored with Haebom Lee)
-        - title: Supervisor
-          contents:
-            - Prof. Kee-Eung Kim
-        - title: Thesis
-          contents:
-            - Fractal Analysis Method applied to the Analysis of EEG Time Series for a Distinction between Patients with Alzheimer-Type Dementia and Late Life Depression
-        - title: Supervisor
-          contents:
-            - Prof. Jaeseong Jeong
-        - Exchange student at TU Munich (Apr. 2009 - Jul. 2009)
+      year: 2009      
 
 - title: Experience
   type: time_table
   contents:
     - title: Senior Software Engineer
       institution: Simulation Technology, NVIDIA
-      year: Aug. 2022 - now
+      year: 2022 - now
     
     - title: Consultant
       institution: Disney Research, Switzerland
-      year: Aug. 2021 - Jun. 2022
+      year: 2021 - 2022
 
     - title: Postdoctoral Researcher
       institution: Computer Graphics Lab, ETH Zurich, Switzerland
-      year: Apr. 2021 - Jun. 2022
+      year: 2021 - 2022
 
     - title: Joint PhD Student
       institution: Disney Research, Switzerland
-      year: Jan. 2020 - Dec. 2021
+      year: 2020
 
     - title: Software Intern
       institution: NVIDIA, Switzerland
-      year: Jun. 2015 - Sep. 2015
+      year: 2015
 
     - title: Co-Founder
       institution: TENELEVEN, South Korea
-      year: 2013
+      year: 2013 - 2014
 
     - title: Research Engineer
       institution: FXGear, South Korea
-      year: Feb. 2010 - May. 2013
+      year: 2010 - 2013
     
