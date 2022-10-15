@@ -2,62 +2,46 @@
   type: map
   contents:
     - name: Full Name
-      value: Byungsoo Kim
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
+    - name: Languages
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD, Computer Science
-      institution: ETH Zurich, Switzerland
-      year: 2017-2021
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-      - title: Thesis
-        contents:
-          - Data-Driven Methods for Artist-Directed Fluid Simulations
-      - title: Supervisors
-        contents:
-          - Prof. Markus Gross
-          - Dr. Barbara Solenthaler
-          - Dr. Vinicius C. Azevedo
-  - title: MSc, Computer Science
-    institution: ETH Zurich, Switzerland
-    year: 2014-2016
-    description:
-    - title: Thesis
-        contents:        
-          - Learning Structured Representations for Geometry
-    - title: Supervisors
-      contents:
-        - Prof. Markus Gross
-        - Prof. Cengiz Öztireli
-      
-  - title: BSc, Computer Science
-    institution: KAIST, Switzerland
-    year: 2005-2009
-    description:
-    - title: Thesis
-        contents:        
-          - Implementation and Performance Improvement of EKF-SLAM and TJTF-SLAM with Logs of Sensor Data Set taken from Real Robots (jointly authored with Haebom Lee)
-    - title: Supervisor
-      contents:
-        - Prof. Kee-Eung Kim
-    - title: Thesis
-        contents:        
-          - Fractal Analysis Method applied to the Analysis of EEG Time Series for a Distinction between Patients with Alzheimer-Type Dementia and Late Life Depression
-    - title: Supervisor
-      contents:
-        - Prof. Jaeseong Jeong
-    - Exchange student at Technical University of Munich (Apr. 2009 - Jul. 2009)
-
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
+      description:
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Senior Software Engineer
-      institution: Simulation Technology, NVIDIA
-      year: Aug. 2022-now
-
-    - title: Consultant
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
       institution: California Institute of Technology, Pasadena, California, US
       year: 1933
       description:
