@@ -2,31 +2,31 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Byungsoo Kim    
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Computer Science
+      institution: ETH Zurich, Switzerland
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: Thesis
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Data-Driven Methods for Artist-Directed Fluid Simulations
+        - title: Supervisor
+          contents:
+            - Prof. Markus Gross
+    - title: MSc, Computer Science (Specialization Track in Visual Computing)
+      institution: ETH Zurich, Switzerland
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
+        - title: Thesis
+          contents:
+            - Learning Structured Representations for Geometry
+        - title: Supervisor
+          contents:
+            - Prof. Markus Gross
 
 - title: Experience
   type: time_table
