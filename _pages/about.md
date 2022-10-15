@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: www.byungsoo.me
 permalink: /
 subtitle: Senior Software Engineer | Simulation Technology, NVIDIA
 

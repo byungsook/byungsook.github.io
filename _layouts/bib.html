@@ -28,8 +28,8 @@
   <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type contains "thesis" -%}
     <div class="title">{{entry.title}}</div>
-    <div class="author">{{site.scholar.first_name}} {{site.scholar.last_name}}</div>
-    {{entry.note}}
+    <div class="author"><em>{{site.scholar.first_name}} {{site.scholar.last_name}}</em></div>
+    <em>{{entry.note}}</em>{{". "}}{{entry.school}}{{". "}}{{entry.year}}{{"."}}
     {%- else %}
     <!-- Title -->
     <div class="title">{{entry.title}}</div>
