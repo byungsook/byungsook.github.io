@@ -41,9 +41,9 @@ layout: default
       {{ content }}
     </div>
 
-    {% if page.news -%}
+    {% if page.news and site.announcements.enabled -%}
     <!-- News -->
-    {%- include news.html %}
+    {%- include news.html limit=true %}
     {%- endif %}
     {% if page.selected_papers -%}
     <!-- Selected papers -->
