@@ -25,3 +25,10 @@ git checkout main
 
 bundle install
 ```
+
+to run,
+
+```
+cd /mnt/c/dev/byungsook.github.io
+bundle exec jekyll serve --lsi
+```
